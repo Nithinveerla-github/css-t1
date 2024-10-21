@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container1 {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    font-size: large;
+    justify-content: space-between;
+    padding: 30px;
+}
+.maincontainer{
+    display: flex;    
+}
+.p3 {
+    margin-left: 30px;
+    font-size: large;
+}
+
+.image {
+    background-image: url('architect.jpg');
+    height:700px;
+    background-size: cover;
+}
+.br{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.p7{
+    margin-top:25px;
+    margin-left:20px;
+    font-size:25px;
+    margin-bottom: 20px;
+}
+/* *******************IMAGES**************** */
+.container11{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    
+}
+.summer{
+    height:200px;
+    width: 310px;
+    margin-top: 10px;
+    
+}
+/* ---------------------images------------------------ */
+.image1{
+    position:absolute;
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    color: white;
+    align-items: center;
+
+}
+.house{
+    background-image: url('summer.jpg');
+    background-size: cover;
+}
+.brick{
+    background-image: url('house2.jpg');
+    background-size: cover; 
+}
+.renovated{
+    background-image: url('house6.jpg');
+    background-size: cover;
+}
+.barn{
+    background-image: url('barn.jpg');
+    background-size: cover;
+}
+.Lorem{
+    margin: 18px;
+    font-size:large;
+    word-spacing: 5px;
+    margin-bottom: 40px;
+}
+/* *******************Founders***************** */
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    flex-wrap: wrap;
+    /* margin-top: 25px; */
+}
+.box{ 
+    width: 320px;
+}
+.image2{
+height: 200px;
+width: 99%;
+background-size:cover;
+margin-bottom: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 228, 232);
+    height:30px;
+    margin-top:10px ;
+    flex-wrap: wrap;
+}
+.archi{
+ margin-top:10px;
+}
+#name{
+    padding: 8px;
+    margin: 10px;
+}
+.co{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: larger;
+}
+
+
